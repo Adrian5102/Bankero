@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Bankero</title>
+    <link rel="stylesheet" href="he_cabecera.css" />
+    <link rel="stylesheet" href="he_secciones.css"/>
+    <link rel="stylesheet" href="he_formulario.css"/>
+    <link rel="stylesheet" href="he_footer.css"/>
+    <link rel="stylesheet" href="menu_toggle.css"/>
+  </head>
+
+  <body>
+    <nav class="top_header">
+      <a href="#" class="logo">
+        <img src="imagenes/Bankero.png" alt="logo-upc" width="50" height="50">
+      </a>
+    
+      <!-- BOTÓN HAMBURGUESA -->
+      <button class="menu-toggle" aria-label="Abrir menú">
+        &#9776;
+      </button>
+    
+      <ul class="Menu_Horizontal">
+        <li><a href="">Inicio</a></li>
+        <li><a href="">Nosotros</a></li>
+        <li>
+          <a href="#">Bancos</a>
+          <ul class="Menu_Vertical">
+            <li><a href="">BANCO DE LA NACION</a></li>
+            <li><a href="">BBVA</a></li>
+            <li><a href="">BCP</a></li>
+            <li><a href="">SCOTIABANK</a></li>
+          </ul>
+        </li>
+        <li><a href="">Contáctanos</a></li>
+      </ul>
+    </nav>
+    <!---->
+    <!--asi es un comentario-->
+<!--SECCIONES-->
+<section class="seccion-nosotros">
+  <div class="div-gral-nosotros">
+    <div class="div-nosotros-texto">
+      <h2>Nosotros</h2>
+      <p>
+        Somos una empresa la cual busca apoyarte a encontrar al 
+        banco que mejor se adapta a tus necesidades financieras.
+      </p>
+    </div>
+    <div class="div-nosotros-img">
+      <img src="imagenes/Nosotros_Bankero.png" alt="Nosotros">
+    </div>
+  </div>
+</section>
+
+<section class="seccion-banco">
+  <div class="div-gral-banco">
+    <div class="div-banco-texto">
+      <h2>Banco de la Nación</h2>
+      <p>
+        El Banco de la Nación brinda servicios financieros orientados 
+        principalmente al sector público y a la ciudadanía, facilitando 
+        de esta manera el pago de servicios del Estado, el acceso a 
+        cuentas de ahorro y otras operaciones bancarias.
+      </p>
+    </div>
+    <div class="div-banco-video">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/h-WggVi8inE?si=JZ2gI7s7AHzxJx9P" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+  </div>
+</section>
+
+<section class="seccion-banco">
+  <div class="div-gral-banco">
+    <div class="div-banco-texto">
+      <h2>BBVA</h2>
+      <p>
+        BBVA pone a disposición de sus clientes servicios financieros 
+        modernos, incluyendo cuentas bancarias, créditos, inversiones y 
+        banca digital, con el objetivo de facilitar una gestión segura 
+        y eficiente de sus finanzas.
+      </p>
+    </div>
+    <div class="div-banco-video">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/PZDtutGzXkc?si=5d6N00jId02gvP_y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+  </div>
+</section>
+
+<section class="seccion-banco">
+  <div class="div-gral-banco">
+    <div class="div-banco-texto">
+      <h2>BCP</h2>
+      <p>
+        El Banco de Crédito del Perú, también conocido como BCP, ofrece 
+        una amplia variedad de productos y servicios financieros como 
+        cuentas de ahorro, préstamos, tarjetas de crédito y soluciones 
+        digitales, brindando opciones tanto para personas como para 
+        empresas en todo el país.
+      </p>
+    </div>
+    <div class="div-banco-video">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/CYdwFWxzIdc?si=2gzLwoixVzCFKrLA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+  </div>
+</section>
+
+<section class="seccion-banco">
+  <div class="div-gral-banco">
+    <div class="div-banco-texto">
+      <h2>Scotiabank</h2>
+      <p>
+        Scotiabank ofrece soluciones financieras que incluyen cuentas, 
+        tarjetas, préstamos, seguros y herramientas digitales, buscando 
+        satisfacer las necesidades de sus clientes con un servicio confiable.
+      </p>
+    </div>
+    <div class="div-banco-video">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/EAEzzSSwNQA?si=eeiNNUuJYJEPTnA5" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+  </div>
+</section>
+  <!--FORMULARIO-->
+  <section class="seccion-formulario">
+    <div class="div-gral-formulario">
+      <h2>Contactanos</h2>
+      <p>Ingresa tus datos para que nos puedas contactar en caso de algún problema</p>
+      <form class="formulario">
+        <!--CAJA DE TEXTO: INPUT TEXT-->
+        <div class="campo">
+          <label for= "nombres">Nombres Completos:</label>
+          <input type= "text" id="nombres" name="nombres" placeholder="Ingrese sus nombres y apellidos">
+        </div>
+        <!--MENU O LISTA DESPLEGABLE: SELECT / OPTION-->
+        <div class="campo">
+          <label for= "distrito">Distrito:</label>
+          <select id="distrito" name="distrito">
+            <option value="">Seleccione su distrito </option>
+            <option value="surco">Surco</option>
+            <option value="sani">San Isidro</option>
+            <option value="sanmi">San Miguel</option>
+            <option value="villa">Villa El Salvador</option>
+          </select>
+        </div>
+        <!--CHECKBOX-->
+        <div class="campo">
+          <label>Seleccione sus bancos afiliados:</label>
+          <ul class="lista-checkbox">
+            <li><label><input type="checkbox" name="bancos" value="banco">Banco de la Nación</label></li>
+            <li><label><input type="checkbox" name="bancos" value="banco">BBVA</label></li>
+            <li><label><input type="checkbox" name="bancos" value="banco">BCP</label></li>
+            <li><label><input type="checkbox" name="bancos" value="banco">Scotiabank</label></li>
+          </ul>
+        </div>
+        <!--RADIOBUTTON-->
+        <div class="campo">
+          <label>Sexo:</label>
+          <ul class="lista-radio">
+            <li><label><input type="radio" name="sexo" value="M">Masculino</label></li>
+            <li><label><input type="radio" name="sexo" value="F">Femenino</label></li>
+            <li><label><input type="radio" name="sexo" value="P">Prefiero no decir</label></li>
+          </ul>
+        </div>
+       <!--BOTON ENVIAR-->
+       <button type="submit">Enviar</button>
+      </form>
+    </div>
+  </section>
+     <!--FOOTER-->
+     <footer>
+      <section class="seccion-footer">
+        <div class="div-gral-footer">
+          <!--Conocenos-->
+          <div class="div-conocenos">
+            <h2>Conocenos</h2>
+            <ul class="lista-footer">
+              <li><a>Nuestra historia</a></li>
+              <li><a>Nuestros logros</a></li>
+              <li><a>Nuestro compromiso</a></li>
+            </ul>
+          </div>
+          <!--Politicas y Leyes-->
+          <div class="div-politicas">
+            <h2>Politicas y Leyes</h2>
+            <ul class="lista-footer">
+              <li><a>Politica de privacidad</a></li>
+              <li><a>Terminos y condiciones</a></li>
+              <li><a>Uso del sitio</a></li>
+            </ul>
+          </div>
+          <!--Redes Sociales-->
+          <div class="div-redes">
+            <h2>Redes Sociales</h2>
+            <ul class="lista-footer">
+              <li><a>Youtube</a></li>
+              <li><a>Instagram</a></li>
+              <li><a>Tik Tok</a></li>
+              <li><a>Facebook</a></li>
+            </ul>
+          </div>
+        </div>
+    </footer>
+    <script src="menu_toggle.js"></script>
+</body>
+      
+</html>

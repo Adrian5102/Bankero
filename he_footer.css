@@ -1,0 +1,65 @@
+.seccion-footer {
+  background-color: black;
+  padding: 40px 20px;
+}
+
+.div-gral-footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 50px;
+}
+
+.div-conocenos,
+.div-politicas,
+.div-redes {
+  flex: 1;
+  min-width: 220px;
+}
+
+.div-conocenos h2,
+.div-politicas h2,
+.div-redes h2 {
+  color: red;
+  margin-bottom: 15px;
+}
+
+.lista-footer {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.lista-footer li {
+  margin-bottom: 10px;
+}
+
+.lista-footer li a {
+  text-decoration: none;
+  color: lightgray;
+  display: inline-block;
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+
+.lista-footer li a:hover {
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .div-gral-footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 35px;
+  }
+
+  .div-conocenos,
+  .div-politicas,
+  .div-redes {
+    width: 100%;
+  }
+}
